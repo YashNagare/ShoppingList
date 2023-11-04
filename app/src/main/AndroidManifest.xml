@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingList"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        android:name=".ShoppingApplication">
         <activity
             android:name=".ui.shoppinglist.ShoppingActivity"
             android:exported="true">
