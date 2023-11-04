@@ -1,7 +1,8 @@
-package com.cypher.shoppinglist
+package com.cypher.shoppinglist.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.cypher.shoppinglist.data.db.entities.ShoppingItem
 
 @Dao
 interface ShoppingDao {

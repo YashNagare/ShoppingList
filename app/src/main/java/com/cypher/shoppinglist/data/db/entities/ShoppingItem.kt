@@ -1,4 +1,4 @@
-package com.cypher.shoppinglist
+package com.cypher.shoppinglist.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

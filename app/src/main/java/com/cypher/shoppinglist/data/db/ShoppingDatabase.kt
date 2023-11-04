@@ -1,9 +1,10 @@
-package com.cypher.shoppinglist
+package com.cypher.shoppinglist.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.cypher.shoppinglist.data.db.entities.ShoppingItem
 
 @Database(
     entities = [ShoppingItem::class],
